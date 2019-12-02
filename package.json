@@ -1,0 +1,28 @@
+{
+  "name": "sou-ui",
+  "version": "0.0.1",
+  "description": "A collection styles, components, and guidelines used by SumOfUs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SumOfUs/sou-ui.git"
+  },
+  "keywords": [
+    "lerna",
+    "react",
+    "styleguide",
+    "storybook",
+    "monorepo",
+    "design",
+    "documentation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SumOfUs/sou-ui/issues"
+  },
+  "homepage": "https://github.com/SumOfUs/sou-ui#readme"
+}
