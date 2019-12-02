@@ -1,0 +1,12 @@
+{
+  "npmClient": "yarn",
+  "packages": [
+    "packages/*"
+  ],
+  "publish": {
+    "ignoreChanges": ["package-lock.json"],
+    "allowBranch": "master"
+  },
+  "useWorkspaces": true,
+  "version": "independent"
+}
