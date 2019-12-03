@@ -1,6 +1,6 @@
 {
   "name": "@sumofus/component-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A button component",
   "author": "Vince Martínez <eyko@users.noreply.github.com>",
   "homepage": "https://github.com/SumOfUs/sou-ui/tree/master/packages/component-button#readme",
