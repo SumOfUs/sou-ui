@@ -1,18 +1,11 @@
 {
-  "name": "@sumofus/component-button",
+  "name": "@sumofus/branding",
   "version": "1.0.0",
-  "description": "A button component",
+  "description": "Colors, typography, etc.",
   "author": "Vince Martínez <eyko@users.noreply.github.com>",
-  "homepage": "https://github.com/SumOfUs/sou-ui/tree/master/packages/component-button#readme",
-  "license": "MIT",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
+  "homepage": "https://github.com/SumOfUs/sou-ui/tree/master/packages/branding#readme",
+  "license": "ISC",
+  "main": "index.ts",
   "publishConfig": {
     "access": "public"
   },
@@ -25,8 +18,5 @@
   },
   "bugs": {
     "url": "https://github.com/SumOfUs/sou-ui/issues"
-  },
-  "dependencies": {
-    "react-intl": "^3.9.1"
   }
 }

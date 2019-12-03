@@ -1,0 +1,44 @@
+.root {
+  border: 2px solid #f8492e;
+  background-color: #f8492e;
+  box-sizing: border-box;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  user-select: none;
+  width: 100%;
+  outline: none;
+  .fa {
+    margin-right: 6px;
+    font-size: 20px;
+  }
+}
+.root > span {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.root.disabled,
+.root.disabled:hover,
+.root.disabled:active {
+  border: 2px solid #d0d0d0;
+  background-color: #d3d3d3;
+  box-shadow: none;
+}
+
+.root:hover {
+  background-color: #f73415;
+}
+
+.root:active {
+  box-shadow: inset #d22207 0 3px 10px;
+}
