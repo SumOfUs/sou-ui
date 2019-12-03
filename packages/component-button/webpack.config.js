@@ -4,6 +4,7 @@ module.exports = {
   mode: 'production',
   entry: './src/index.ts',
   output: {
+    filename: 'index.js',
     path: path.resolve(__dirname, 'lib'),
     library: '',
     libraryTarget: 'commonjs',

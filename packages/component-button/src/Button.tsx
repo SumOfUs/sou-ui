@@ -27,8 +27,9 @@ const Button = styled.button`
   }
 
   &:hover:not(:disabled) {
-    background-color: ${({ theme }: Props) => theme.darkOrange};
-    border-color: ${({ theme }: Props) => theme.darkOrange};
+    background-color: ${({ theme }: Props) =>
+      theme ? theme.darkOrange : null};
+    border-color: ${({ theme }: Props) => (theme ? theme.darkOrange : null)};
   }
 `;
 
