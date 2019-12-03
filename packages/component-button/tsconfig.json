@@ -4,6 +4,8 @@
     "outDir": "./lib",
     "rootDir": "./src",
     "jsx": "react",
+    "strictNullChecks": true,
+    "strict": true,
     "sourceMap": true
   },
   "include": ["./src"]

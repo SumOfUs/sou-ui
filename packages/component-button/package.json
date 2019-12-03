@@ -22,7 +22,8 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build:webpack": "webpack --mode production"
+    "build:webpack": "webpack --mode production",
+    "build": "yarn build:webpack"
   },
   "bugs": {
     "url": "https://github.com/SumOfUs/sou-ui/issues"
@@ -35,5 +36,8 @@
   "peerDependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2"
   }
 }

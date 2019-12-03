@@ -1,16 +1,18 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
     "declaration": true,
-    "noImplicitAny": false,
-    "removeComments": true,
-    "noLib": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "esnext",
-    "sourceMap": true,
+    "jsx": "react",
     "lib": ["esnext"],
-    "jsx": "react"
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "noLib": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "esnext"
   },
   "exclude": [
     "node_modules",

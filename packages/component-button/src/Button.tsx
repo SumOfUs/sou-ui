@@ -7,8 +7,8 @@ export interface Props extends React.HTMLProps<HTMLButtonElement> {
 const Button = styled.button`
   max-width: 25ch;
   width: 100%;
-  border: 2px solid ${({ theme }: Props) => theme.orange};
-  background-color: ${({ theme }: Props) => theme.orange};
+  border: 2px solid ${({ theme }: Props) => (theme ? theme.orange : undefined)};
+  background-color: ${({ theme }: Props) => (theme ? theme.orange : undefined)};
   color: white;
   font-weight: bold;
   font-size: 16px;
@@ -28,8 +28,9 @@ const Button = styled.button`
 
   &:hover:not(:disabled) {
     background-color: ${({ theme }: Props) =>
-      theme ? theme.darkOrange : null};
-    border-color: ${({ theme }: Props) => (theme ? theme.darkOrange : null)};
+      theme ? theme.darkOrange : undefined};
+    border-color: ${({ theme }: Props) =>
+      theme ? theme.darkOrange : undefined};
   }
 `;
 
