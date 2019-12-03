@@ -19,12 +19,13 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "tsc"
+    "build": "tsc --build"
   },
   "bugs": {
     "url": "https://github.com/SumOfUs/sou-ui/issues"
   },
   "dependencies": {
+    "polished": "^3.4.2",
     "styled-components": "^4.4.1"
   }
 }
