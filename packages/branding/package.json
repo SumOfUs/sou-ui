@@ -18,5 +18,8 @@
   },
   "bugs": {
     "url": "https://github.com/SumOfUs/sou-ui/issues"
+  },
+  "dependencies": {
+    "styled-components": "^4.4.1"
   }
 }
