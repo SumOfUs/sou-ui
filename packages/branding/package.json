@@ -9,7 +9,7 @@
     "lib",
     "src"
   ],
-  "main": "src/index.ts",
+  "main": "lib/index.js",
   "publishConfig": {
     "access": "public"
   },
