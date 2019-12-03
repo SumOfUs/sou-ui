@@ -5,7 +5,7 @@
   "author": "Vince Martínez <eyko@users.noreply.github.com>",
   "homepage": "https://github.com/SumOfUs/sou-ui/tree/master/packages/branding#readme",
   "license": "ISC",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "publishConfig": {
     "access": "public"
   },

@@ -1,22 +1,21 @@
 import * as React from 'react';
 import { FormattedNumber } from 'react-intl';
-import Button, { IProps as IButtonProps } from './Button';
+import Button, { Props as ButtonProps } from './Button';
 
-interface IProps extends IButtonProps {
+interface Props extends ButtonProps {
   currency: string;
   amount: number;
-  recurring?: boolean;
 }
-const DonateButton = (props: IProps) => {
-  const { currency, amount, recurring, ...buttonProps } = props;
+const DonateButton = (props: Props) => {
+  const { currency, amount, ...buttonProps } = props;
   return (
     <Button {...buttonProps}>
       <FormattedNumber
         style="currency"
         minimumFractionDigits={0}
         maximumFractionDigits={0}
-        currency={props.currency}
-        value={props.amount}
+        currency={currency}
+        value={amount}
       />
     </Button>
   );

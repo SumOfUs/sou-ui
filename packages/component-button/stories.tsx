@@ -1,8 +1,8 @@
-import React from 'react';
+import * as React from 'react';
 import { IntlProvider } from 'react-intl';
 import { action } from '@storybook/addon-actions';
-import { Button, DonateButton } from './index';
-import { theme } from '@sumofus/branding';
+import { Button, DonateButton } from './src';
+import { themes } from '@sumofus/branding';
 import { ThemeProvider } from 'styled-components';
 import { withA11y } from '@storybook/addon-a11y';
 import {
@@ -14,7 +14,7 @@ import {
 } from '@storybook/addon-knobs';
 
 const themeDecorator = storyFn => (
-  <ThemeProvider theme={theme}>{storyFn()}</ThemeProvider>
+  <ThemeProvider theme={themes.sumofus}>{storyFn()}</ThemeProvider>
 );
 export default {
   title: 'Button',

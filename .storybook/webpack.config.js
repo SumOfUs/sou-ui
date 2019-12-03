@@ -1,6 +1,6 @@
-const path = require('path');
+import path from 'path';
 
-module.exports = async ({ config, mode }) => {
+module.exports = async ({ config }) => {
   // Use babel-loader for TypeScript files
   config.module.rules.push({
     test: /\.tsx?$/,

@@ -1,15 +1,14 @@
 import styled from 'styled-components';
-import { theme } from '@sumofus/branding';
+import { themes } from '@sumofus/branding';
 
-export interface IProps {
-  disabled?: boolean;
-  theme: typeof theme;
+export interface Props extends React.HTMLProps<HTMLButtonElement> {
+  theme?: typeof themes.sumofus;
 }
 const Button = styled.button`
   max-width: 25ch;
   width: 100%;
-  border: 2px solid ${({ theme }) => theme.orange};
-  background-color: ${({ theme }) => theme.orange};
+  border: 2px solid ${({ theme }: Props) => theme.orange};
+  background-color: ${({ theme }: Props) => theme.orange};
   color: white;
   font-weight: bold;
   font-size: 16px;
@@ -28,8 +27,8 @@ const Button = styled.button`
   }
 
   &:hover:not(:disabled) {
-    background-color: ${p => p.theme.darkOrange};
-    border-color: ${p => p.theme.darkOrange};
+    background-color: ${({ theme }: Props) => theme.darkOrange};
+    border-color: ${({ theme }: Props) => theme.darkOrange};
   }
 `;
 

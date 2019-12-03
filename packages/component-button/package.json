@@ -5,13 +5,14 @@
   "author": "Vince Martínez <eyko@users.noreply.github.com>",
   "homepage": "https://github.com/SumOfUs/sou-ui/tree/master/packages/component-button#readme",
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "publishConfig": {
     "access": "public"
