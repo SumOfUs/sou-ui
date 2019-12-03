@@ -5,6 +5,10 @@
   "author": "Vince Martínez <eyko@users.noreply.github.com>",
   "homepage": "https://github.com/SumOfUs/sou-ui/tree/master/packages/branding#readme",
   "license": "ISC",
+  "files": [
+    "lib",
+    "src"
+  ],
   "main": "src/index.ts",
   "publishConfig": {
     "access": "public"
@@ -14,7 +18,8 @@
     "url": "git+https://github.com/SumOfUs/sou-ui.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc"
   },
   "bugs": {
     "url": "https://github.com/SumOfUs/sou-ui/issues"

@@ -2,7 +2,9 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "outDir": "./lib",
-    "jsx": "react"
+    "rootDir": "./src",
+    "jsx": "react",
+    "sourceMap": true
   },
-  "include": ["./src", "./stories.tsx"]
+  "include": ["./src"]
 }

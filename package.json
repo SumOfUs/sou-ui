@@ -11,6 +11,7 @@
     "lint": "eslint . .storybook --ext .js,.jsx,.ts,.tsx",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-storybook": "build-storybook",
+    "build-ts": "tsc --build",
     "prerelease": "yarn build",
     "release": "lerna publish"
   },
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/SumOfUs/sou-ui#readme",
   "devDependencies": {
+    "@babel/cli": "^7.7.4",
     "@babel/core": "^7.7.4",
     "@storybook/addon-a11y": "^5.2.8",
     "@storybook/addon-actions": "^5.2.8",
@@ -62,6 +64,7 @@
     "style-loader": "^1.0.1",
     "styled-components": "^4.4.1",
     "ts-jest": "^24.2.0",
+    "ts-loader": "^6.2.1",
     "typescript": "^3.7.2",
     "verdaccio": "^4.3.5",
     "webpack": "^4.41.2",
